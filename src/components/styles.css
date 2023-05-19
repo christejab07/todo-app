@@ -1,0 +1,73 @@
+.container{
+     margin: 1em 27%;
+     background-color: whitesmoke;
+     padding: 2em;
+     border-radius: 5px;
+     text-align: left;
+}
+.container > h1 {
+     color: #d657d6;
+     text-align: center;
+}
+button {
+     padding: 8px 20px;
+     border-radius: 5px;
+     border: 2px solid #d657d6;
+     cursor: pointer;
+     background-color: transparent;
+     display: block;
+     margin: 5px;
+     width: 100%;
+     font-size: 0.9rem;
+     transition: background-color 0.2s ease-out;
+}
+button:hover {
+     background-color: #8b008b;
+     border: 2px solid #8b008b;
+}
+input {
+     display: block;
+     margin: 10px 0;
+     padding: 5px 10px;
+     width: 100%;
+     background-color: black;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 1.2em;
+}
+.container > p {
+     font-size: 0.8em;
+     text-align: center;
+     margin: 20px 18% 2em 18%;
+}
+textarea {
+     display: block;
+     margin: 10px 0;
+     padding: 5px 10px;
+     width: 100%;
+     background-color: black;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 1.2em;
+     font-family: sans-serif;
+     height: 50px;
+}
+.container > button {
+     width: 30%;
+     background-color: #d657d6;
+     transition: background-color 0.2s ease-out;
+}
+.container > button:hover{
+     background-color: #8b008b;
+     border: 2px solid #8b008b;
+}
+li {
+     display: inline-table;
+     margin: 0 20px;
+}
+.delete:hover {
+     background-color: rgb(255, 55, 55);
+     border: 2px solid rgb(255, 55, 55);
+}

@@ -1,5 +1,6 @@
 {
-  "name": "bliss-design",
+  "name": "todo-app",
+  "author": "Christelle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
